@@ -4,17 +4,20 @@
     padding: 0;
 }
 
+body{
+    background: #1B1B1B;
+    color: #ffffff;
+    width: 100vw;
+    height: auto;
+    
+}
+
 .container{
     padding: 0 100px;
 }
 
-body{
-background: #2F2F2F;
-color: #ffffff;
-width: 100vw;
-height: auto;
 
-}
+/* navbar starts here */
 
 .navbar{
     overflow: hidden;
@@ -22,122 +25,73 @@ height: auto;
     display: flex;
     height: 80px;
     justify-content: space-between;
-    background: #2C2C2C;
     padding: 20px 100px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-
+    align-items: center;
 }
-.navbar .icon {
-    display: none;
-  }
 
 .brand-name img{
-  width: 40px;
-  height: 40px;  
+    width: 40px;
+    height: 40px;  
 }
 
-.nav-left{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 8px;
-
-}
-.nav-items{
+.nav-social{   
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.nav-list{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    align-self: center;
-}
-.nav-list a{
-color: #e6e6e6;
-font-family: General Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22px;
-
-}
-.dash
-{width: 2px;
-height: 24px;
-background-color: #c9c9c9;
-align-self: center;
-}
-.navbar .icon{
-    align-self: center;
-    width: 24px;
-    height: 24px;
-}
-a{
-text-decoration: none; 
-font-size: 16px; 
-color: #eeeeee;
-}
-#active{
-    color: #fc9648;
-}
-
-a:hover{
-    color: #ec7e2b;
-}
-
-.nav-social{
-    
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 24px;
-}
 
 .brand-image img{
-width: 24px;
-height: 24px;
+    width: 24px;
+    height: 24px;
 } 
 
-.hero-banner{
+/* navbar ends here */
+
+/* Hero section */
+
+.hero_section{
     width: auto;
-    height: auto;
-    padding: 60px 0;
+    height: 100vh;
+    padding: 120px 0;
     text-align: center;
 }
-.hero-banner h1{
-    padding-top: 24px;
-    width: 80%;
-    font-family: General Sans;
-    font-size: 30px;
+
+.hero{
+    padding: 0 auto;
+}
+
+.hero h1{
+    width: 88%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
     font-weight: 600;
-    line-height: 53px;
+    line-height: 50px;
     text-align: center;
     margin: 0 auto;
     color: #e2e2e2;
 
 }
-.hero-banner p{
-    width: 65%;
+
+.hero p{
+    width: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     text-align: center;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 16px 0;
     color: #C8C8C8;
 
 
 }
+
+
+
 button{
-    margin-top: 24px;
+    margin-top: 16px;
     height: 50px;
-    width: 236px;
+    width: 20%;
     border-radius:  20px 8px ;
     padding: 8px;
     border: none;
@@ -147,11 +101,134 @@ button{
     color: #ffffff;
     font-size: 16px;
     font-weight: 500px;
+}
+
+.about{
+padding: 150px 100px;
+width: auto;
+text-align: center;
+}
+
+.about_image{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    height: 750px;
+}
+
+.my_images{
+    width: 32%;
+    height: 450px;
+}
+
+.about_image :nth-child(2){
+    margin: 280px 0 0 0;
+}
+
+.about_bio{
+    width: 90%;
+    margin: 150px 0 0 0 ;
+}
+
+.about_bio h3{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about_bio p{
+    padding: 24px 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    
+}
+
+.about_bio .company_name{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.breaker_line{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 3px;
+    width: 100%;
+    
+}
+
+.project{
+    width: auto;
+    padding: 150px 100px;
+}
+
+.project h3{
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.projects_recent{
+    display:flex;
+    width: auto;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+
+.project_card{
+    width: 35%;
+    padding: 24px 0;
+
+}
+.project_card img{
+    width: 100%;
+ 
+}
+
+.project_card h5{
+    font-weight: 700;
+    font-family: General Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align:left;
+    padding:  8px 0 0;
+
+ 
+}
+
+.project_card p{
+    font-family: General Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-align: left;
 
 }
 
 
-/* About section */
+
+
+
+
+/* 
+
+
+
 .about{
     display: flex;
     gap: 32px;
@@ -208,35 +285,27 @@ letter-spacing: 0.2rem;
     line-height:26px ;
 }
 
-/* Work section */
 
 
 
 
 
-
-
-
-
-
+ */
 
 
 /* Media query */
 
 @media screen and (max-width: 880px) {
-    .navbar a:not(:first-child) {display: none;}
+    /* .navbar a:not(:first-child) {display: none;} */
+    
     .navbar a.icon {
       float: right;
       display: block;
     }
-    .navbar .nav-list{
+    /* .navbar .nav-social{
         display: none;
-    }
-    .navbar .nav-social{
-        display: none;
-    }
-    .dash{display: none;
-    }
+    } */
+    
         
     .navbar{
         overflow: hidden;
