@@ -8,11 +8,10 @@ body{
     background: #1B1B1B;
     color: #ffffff;
     height: auto;
-    padding: 0 100px;
+    padding: 0 50px;
     
 }
 
-/* navbar starts here */
 
 .navbar{
     overflow: hidden;
@@ -40,9 +39,7 @@ body{
     height: 24px;
 } 
 
-/* navbar ends here */
 
-/* Hero section */
 
 .hero_section{
     width: auto;
