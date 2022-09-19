@@ -167,7 +167,6 @@ text-align: left;
 
 .projects_recent{
     display:flex;
-
     width: auto;
     gap: 24px;
     justify-content: flex-start;
@@ -182,6 +181,7 @@ text-align: left;
 }
 .project_card img{
     width: 100%;
+    
  
 }
 
