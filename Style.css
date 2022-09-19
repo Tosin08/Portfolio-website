@@ -106,10 +106,11 @@ text-align: center;
 .about_image{
     display: flex;
     justify-content: space-between;
+    height: auto;
 }
 
 .my_images{
-    width: 30%;
+    width: 32%;
 }
 
 .about_bio{
