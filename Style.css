@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #1B1B1B;
+    background: #131417;
     color: #ffffff;
     height: auto;
     padding: 0 50px;
@@ -109,7 +109,7 @@ text-align: center;
 }
 
 .my_images{
-    width: 45%;
+    width: 30%;
 }
 
 .about_bio{
@@ -256,7 +256,7 @@ text-align: left;
 .contact_me{
     width: auto;
     height: auto;
-    background-color: #131417;
+    background-color: #1B1B1B;
     padding: 50px 85px;
     border-radius: 10px;
     text-align: center;
