@@ -53,7 +53,7 @@ body{
 }
 
 .hero h1{
-    width: 88%;
+    width: 80%;
     font-family: 'Noto Sans', sans-serif;
     font-size: 35px;
     font-weight: 600;
@@ -61,11 +61,12 @@ body{
     text-align: center;
     margin: 0 auto;
     color: #e2e2e2;
+    padding: 24px 0 0 0;
 
 }
 
 .hero p{
-    width: 70%;
+    width: 60%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 500;
