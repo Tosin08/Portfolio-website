@@ -31,7 +31,7 @@ body{
 .nav-social{   
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 220px;
 }
 
 .brand-image img{
@@ -326,7 +326,7 @@ text-align: left;
     .nav-social{   
         display: flex;
         justify-content: space-between;
-        width: 150px;
+        width: 250px;
     }
     
     .brand-image img{
@@ -446,7 +446,7 @@ text-align: left;
     .nav-social{   
         display: flex;
         justify-content: space-between;
-        width: 150px;
+        width: 250px;
     }
     
     .brand-image img{
@@ -614,7 +614,7 @@ text-align: left;
     .nav-social{   
         display: flex;
         justify-content: space-between;
-        width: 120px;
+        width: 200px;
     }
     
     .brand-image img{
